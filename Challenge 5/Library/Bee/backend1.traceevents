@@ -1,0 +1,352 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1706272754665631, "dur":90, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706272754665756, "dur":2002, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706272754667770, "dur":113, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706272754667921, "dur":366, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706272754668315, "dur":3109, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706272754671426, "dur":193199, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706272754864626, "dur":307, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706272754864934, "dur":56, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706272754865145, "dur":2245, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1706272754668451, "dur":2982, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1706272754671436, "dur":6839, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1706272754678305, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1706272754678438, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1706272754678552, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1706272754678824, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\magut\\OneDrive\\Desktop\\Curso Unity\\Challenge 5\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706272754678934, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\magut\\OneDrive\\Desktop\\Curso Unity\\Challenge 5\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706272754679070, "dur":210, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\magut\\OneDrive\\Desktop\\Curso Unity\\Challenge 5\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706272754679282, "dur":319, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\magut\\OneDrive\\Desktop\\Curso Unity\\Challenge 5\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706272754679603, "dur":427, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\magut\\OneDrive\\Desktop\\Curso Unity\\Challenge 5\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706272754680031, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\magut\\OneDrive\\Desktop\\Curso Unity\\Challenge 5\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706272754680116, "dur":300, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\magut\\OneDrive\\Desktop\\Curso Unity\\Challenge 5\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706272754678437, "dur":2101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1706272754681276, "dur":172280, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1706272754859174, "dur":3932, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1706272754859173, "dur":3936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1706272754863143, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1706272754668541, "dur":2913, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706272754671458, "dur":1045, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706272754672503, "dur":5785, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706272754678290, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1706272754680472, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1706272754682042, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1706272754682682, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1706272754684111, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1706272754684444, "dur":1375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1706272754685899, "dur":133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1706272754685897, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1706272754686417, "dur":1734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1706272754688206, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1706272754688319, "dur":319, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706272754688656, "dur":2066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1706272754691548, "dur":5973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706272754697666, "dur":4661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706272754702386, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706272754702467, "dur":4191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706272754706743, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706272754706882, "dur":4084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706272754711039, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706272754711138, "dur":5513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706272754716709, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706272754716889, "dur":4775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706272754721754, "dur":245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706272754722022, "dur":4002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706272754726088, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706272754726313, "dur":3927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706272754730316, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706272754730534, "dur":5634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706272754736240, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706272754736338, "dur":5304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706272754744348, "dur":1828, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706272754741713, "dur":4474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1706272754746366, "dur":118311, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706272754668488, "dur":2952, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706272754671443, "dur":1199, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706272754672642, "dur":5741, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706272754678394, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":3, "ts":1706272754678384, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1706272754678545, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706272754689309, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1706272754692093, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706272754692231, "dur":4336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706272754696638, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706272754696814, "dur":3317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706272754700266, "dur":8653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706272754709002, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706272754709107, "dur":5275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706272754714448, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706272754714563, "dur":5621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706272754720232, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706272754720406, "dur":3591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706272754724068, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706272754724147, "dur":4513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706272754728717, "dur":291, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706272754729027, "dur":11405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706272754745136, "dur":2287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1706272754747494, "dur":117161, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706272754668528, "dur":2919, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706272754671449, "dur":1258, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706272754672707, "dur":5637, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706272754678346, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1706272754686622, "dur":1648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1706272754688385, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1706272754688567, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706272754689118, "dur":2345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1706272754691636, "dur":8673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706272754700379, "dur":285, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706272754700717, "dur":4027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706272754704810, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706272754705030, "dur":4636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706272754709738, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706272754709866, "dur":5122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706272754715050, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706272754715180, "dur":4499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706272754719763, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706272754719903, "dur":4359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706272754724341, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706272754724501, "dur":8525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706272754733094, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706272754744208, "dur":1799, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706272754733233, "dur":12791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706272754746099, "dur":118521, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706272754668565, "dur":2897, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706272754671465, "dur":1125, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706272754672590, "dur":5713, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706272754678305, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1706272754686037, "dur":1539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1706272754687646, "dur":127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1706272754687645, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1706272754687930, "dur":2090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1706272754690073, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1706272754690200, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706272754691069, "dur":2662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1706272754693850, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706272754693948, "dur":86, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706272754694039, "dur":4790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706272754698915, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706272754699125, "dur":4607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706272754703790, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706272754703914, "dur":4496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706272754708472, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706272754708667, "dur":4132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706272754712875, "dur":283, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706272754713203, "dur":5771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706272754719040, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706272754719162, "dur":3588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706272754722841, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706272754722965, "dur":4824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706272754727849, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706272754727920, "dur":3553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706272754731547, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706272754731747, "dur":5708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706272754737509, "dur":162, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706272754737508, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706272754737751, "dur":18721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706272754756524, "dur":108099, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706272754668591, "dur":2878, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706272754671473, "dur":1126, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706272754672600, "dur":5691, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706272754678300, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1706272754678559, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706272754690065, "dur":2729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1706272754692865, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706272754692997, "dur":4464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706272754697648, "dur":60, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706272754697712, "dur":5737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706272754703517, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706272754703618, "dur":4267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706272754707951, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706272754708089, "dur":3448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706272754711609, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706272754711817, "dur":5508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706272754717389, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706272754717519, "dur":4425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706272754722007, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706272754722077, "dur":4853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706272754726996, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706272754727129, "dur":3980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706272754731224, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706272754731309, "dur":5333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706272754736733, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706272754736807, "dur":5297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706272754744468, "dur":1831, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706272754742410, "dur":3900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1706272754746362, "dur":118320, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706272754668636, "dur":2843, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706272754671482, "dur":1087, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706272754672570, "dur":5725, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706272754678321, "dur":207, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":7, "ts":1706272754678295, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1706272754678529, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706272754687897, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1706272754689553, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":7, "ts":1706272754689552, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5.exe" }}
+,{ "pid":12345, "tid":7, "ts":1706272754689621, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706272754689699, "dur":2889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5.exe" }}
+,{ "pid":12345, "tid":7, "ts":1706272754692668, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706272754692839, "dur":4254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706272754697247, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706272754697436, "dur":4300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706272754701806, "dur":330, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706272754702162, "dur":4288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706272754706521, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706272754706617, "dur":3964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706272754710655, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706272754710773, "dur":5495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706272754716330, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706272754716402, "dur":4523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706272754721016, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706272754721092, "dur":4075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706272754725229, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706272754725336, "dur":4306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706272754729727, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706272754729800, "dur":3637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706272754733518, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706272754733702, "dur":6564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706272754742973, "dur":3006, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706272754740437, "dur":5560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1706272754746106, "dur":1853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1706272754748008, "dur":116639, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706272754668674, "dur":2813, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706272754671490, "dur":1050, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706272754672540, "dur":5747, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706272754678317, "dur":180, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1706272754678301, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1706272754678500, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706272754687608, "dur":1541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1706272754689208, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706272754689206, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706272754689671, "dur":6507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706272754696263, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706272754696390, "dur":2682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706272754699314, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706272754699427, "dur":4517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706272754704011, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706272754704177, "dur":4033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706272754708294, "dur":354, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706272754708678, "dur":3618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706272754712365, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706272754712571, "dur":5486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706272754718130, "dur":277, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706272754718428, "dur":4095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706272754722597, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706272754722810, "dur":4960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706272754727841, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706272754728037, "dur":3868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706272754731976, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706272754732054, "dur":5760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706272754743007, "dur":2986, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706272754737899, "dur":8105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1706272754746111, "dur":118505, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706272754668706, "dur":2788, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706272754671497, "dur":272, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706272754671770, "dur":6513, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706272754678302, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706272754678452, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706272754679522, "dur":2539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/app.info" }}
+,{ "pid":12345, "tid":9, "ts":1706272754682064, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1706272754682063, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1706272754682672, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1706272754684128, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1706272754684802, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1706272754685971, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1706272754686461, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1706272754688423, "dur":139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706272754688421, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706272754688564, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706272754689031, "dur":4400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706272754693875, "dur":398, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706272754694322, "dur":5972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706272754700361, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706272754700446, "dur":4752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706272754705316, "dur":6422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706272754711830, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706272754711911, "dur":5530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706272754717521, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706272754717891, "dur":10910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706272754728908, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706272754745110, "dur":1298, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706272754729030, "dur":17390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706272754746513, "dur":118149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706272754668738, "dur":2764, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706272754671503, "dur":6782, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706272754678336, "dur":300, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1706272754678291, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1706272754693161, "dur":181, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706272754693355, "dur":4522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1706272754697955, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706272754698090, "dur":5313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706272754703462, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706272754703547, "dur":6642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706272754710256, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706272754710424, "dur":4944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706272754715426, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706272754715519, "dur":4659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706272754720231, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706272754720410, "dur":4363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706272754724837, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706272754724953, "dur":4897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706272754729927, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706272754729995, "dur":6344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706272754736409, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706272754736549, "dur":5814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706272754742479, "dur":3473, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706272754745961, "dur":4538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1706272754750550, "dur":114088, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706272754668775, "dur":2742, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706272754671518, "dur":6841, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706272754678361, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1706272754678524, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706272754688971, "dur":2332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1706272754691432, "dur":335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706272754691812, "dur":5746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706272754697671, "dur":5336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706272754703067, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706272754703179, "dur":6059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706272754709376, "dur":4545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706272754713979, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706272754714199, "dur":5178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706272754719493, "dur":3884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706272754723446, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706272754723583, "dur":4602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706272754728251, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706272754728344, "dur":3833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706272754732230, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706272754732402, "dur":5760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706272754738235, "dur":1871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1706272754740254, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1706272754744474, "dur":1904, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706272754742301, "dur":4109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1706272754746458, "dur":118212, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706272754668811, "dur":2714, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706272754671525, "dur":6795, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706272754678332, "dur":236, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1706272754678322, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1706272754678570, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706272754690533, "dur":2082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1706272754692710, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706272754692841, "dur":4883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706272754697782, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706272754697978, "dur":3424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706272754701481, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706272754701594, "dur":4138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706272754705787, "dur":240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706272754706048, "dur":4301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706272754710404, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706272754710494, "dur":4823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706272754715396, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706272754715511, "dur":5065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706272754720642, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706272754720743, "dur":4890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706272754725714, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706272754725794, "dur":4174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706272754730033, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706272754730135, "dur":6029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706272754736244, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706272754736340, "dur":4769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706272754741335, "dur":4643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1706272754746098, "dur":2332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/magut/OneDrive/Desktop/Curso Unity/Juego/Challenge 5_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1706272754748490, "dur":116141, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706272754871178, "dur":1836, "ph":"X", "name": "ProfilerWriteOutput" }
+,
